@@ -4,6 +4,7 @@ El objetivo principal fue **reestructurar el código aplicando principios de la 
 
 
 ## División de Responsabilidades
+
 Dividí el proyecto en dos clases principales para aplicar el principio de **responsabilidad única (SRP)**:
 
 ### 1. Mapa
@@ -30,6 +31,7 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
 
 
 ## Qué aprendí del proceso de refactorización
+
 - Cómo **dividir el código** en responsabilidades claras.  
   Antes todo estaba en funciones sueltas; ahora, al separarlo en clases, el código quedó más organizado y fácil de mantener.
 
@@ -39,6 +41,7 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
 
 
 ## Decisiones tomadas y por qué
+
 - **Usar POO** (Programación Orientada a Objetos):  
   Para que el proyecto sea más escalable, reutilizable y sencillo de probar o extender.
 
@@ -51,21 +54,22 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
 
 
 ## Diferencias con respecto al proyecto anterior
-### - Uso correcto de la POO
+
+## - Uso correcto de la POO
 - Se introdujo una estructura clara de clases con atributos, métodos y aplicación de **abstracción** y **encapsulamiento**.
 
-### - Visualización del camino resuelto
+## - Visualización del camino resuelto
 - Antes, el backtracking mostraba el camino desde la **Salida hacia la Entrada**, dificultando entender el recorrido.
 - Ahora, el camino se muestra correctamente desde la **Entrada (E) hasta la Salida (S)** gracias a la inversión del recorrido con reverse.
 
-### - Estructura modular y clara
+## - Estructura modular y clara
 - Antes, todo estaba en funciones desordenadas.
 - Ahora se divide en clases bien organizadas (Mapa, CalculadoraDeRutas), siguiendo SRP, con métodos agrupados por funcionalidad.
 
-### - Separación del flujo principal (main.py)
+## - Separación del flujo principal (main.py)
 - Antes, el script mezclaba lógica, entradas y ejecución.
 - Ahora, main.py se encarga solo del flujo general: entradas del usuario, creación de objetos y ejecución de métodos.
 
-### - Mejor manejo de errores y validaciones
+## - Mejor manejo de errores y validaciones
 - Se agregaron validaciones dentro de los métodos para evitar errores por coordenadas fuera del tablero o celdas ocupadas, aplicando el principio de **encapsulamiento**.
 
