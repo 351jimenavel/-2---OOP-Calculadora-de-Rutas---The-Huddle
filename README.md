@@ -3,7 +3,6 @@
 Este proyecto es una **refactorización** del desafío anterior titulado *Calculadora de Rutas*.  
 El objetivo principal fue **reestructurar el código aplicando principios de la Programación Orientada a Objetos (POO)** para lograr una solución más clara, modular y mantenible.
 
----
 
 ## División de Responsabilidades
 
@@ -31,7 +30,6 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
 - Buscar el camino más corto entre Entrada y Salida.
 - Reconstruir y mostrar la ruta final encontrada.
 
----
 
 ## Qué aprendí del proceso de refactorización
 
@@ -42,7 +40,6 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
 
 - La diferencia entre usar funciones sueltas vs. trabajar con **objetos y métodos**: entendí cómo esto mejora la escalabilidad y el mantenimiento del código.
 
----
 
 ## Decisiones tomadas y por qué
 
@@ -56,7 +53,6 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
   Dejé ciertos atributos como matriz públicos, ya que los uso directamente desde otros módulos.  
   Sin embargo, si el proyecto crece, podría encapsularlos con getters/setters para mejorar la seguridad y control.
 
----
 
 ## Diferencias con respecto al proyecto anterior
 
@@ -78,4 +74,3 @@ Encargada exclusivamente de la lógica del algoritmo BFS.
 ### Mejor manejo de errores y validaciones
 - Se agregaron validaciones dentro de los métodos para evitar errores por coordenadas fuera del tablero o celdas ocupadas, aplicando el principio de **encapsulamiento**.
 
----
