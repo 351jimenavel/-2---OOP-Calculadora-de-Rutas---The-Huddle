@@ -1,5 +1,5 @@
-from entrega.mapa import Mapa
-from entrega.calculadora import CalculadoraDeRutas
+from mapa import Mapa
+from calculadora import CalculadoraDeRutas
 import time
 
 def main():
